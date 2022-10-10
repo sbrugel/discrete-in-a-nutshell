@@ -20,9 +20,9 @@ function App() {
         <Link to="/pagetwo">1.2: Basic Symbols</Link>
       </p>
       <Routes>
-        <Route path="/" element={<Base />} />
-        <Route path="/pageone" element={<Page1 />} />
-        <Route path="/pagetwo" element={<Page2 />} />
+        <Route path="/discrete-in-a-nutshell" element={<Base />} />
+        <Route path="/discrete-in-a-nutshell/pageone" element={<Page1 />} />
+        <Route path="/discrete-in-a-nutshell/pagetwo" element={<Page2 />} />
       </Routes>
     </div>
   );
