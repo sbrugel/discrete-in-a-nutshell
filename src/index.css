@@ -1,19 +1,23 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url('//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.css');
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: 'arial';
+  align-content: left;
+  background-color: #4a4a4a;
+  color: #ffffff;
 }
 
 div {
-  margin: 20px;
-  padding: 20px;
+  margin: 10px;
+  padding: 10px;
   text-align: left;
+}
+
+a {
+	color: #c7dcff;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #8c9cb8;
 }
