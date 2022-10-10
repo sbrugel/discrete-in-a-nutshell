@@ -2,10 +2,13 @@ import { Routes, Route, Link } from "react-router-dom";
 import Page1 from "./components/Page1";
 import Page2 from "./components/Page2";
 import Base from "./components/Base";
+import Nav from "./components/Nav";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div>
+      <Nav />
       <p>
         Hi, and welcome to this little project of mine. I decided to write up a
         few pages' worth of simplication of Discrete Mathematics concepts as a
@@ -24,6 +27,7 @@ function App() {
         <Route path="/discrete-in-a-nutshell/pageone" element={<Page1 />} />
         <Route path="/discrete-in-a-nutshell/pagetwo" element={<Page2 />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
