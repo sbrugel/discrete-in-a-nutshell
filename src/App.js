@@ -14,10 +14,10 @@ function App() {
         course's worth of material here, right?
       </p>
       <p>
-        <Link to="/pageone">1.1: Basic Statements</Link>
+        <Link to="/discrete-in-a-nutshell/pageone">1.1: Basic Statements</Link>
       </p>
       <p>
-        <Link to="/pagetwo">1.2: Basic Symbols</Link>
+        <Link to="/discrete-in-a-nutshell/pagetwo">1.2: Basic Symbols</Link>
       </p>
       <Routes>
         <Route path="/discrete-in-a-nutshell" element={<Base />} />
