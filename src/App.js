@@ -1,15 +1,16 @@
 import { Routes, Route, Link } from "react-router-dom";
-import Page1 from "./components/Page1";
-import Page2 from "./components/Page2";
+import Ch1Page1 from "./components/Ch1Page1";
+import Ch1Page3 from "./components/Ch1Page3";
 import Base from "./components/Base";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
+import Ch1Page2 from "./components/Ch1Page2";
 
 function App() {
   return (
     <div>
       <Nav />
-      <p>
+      <p id="start">
         Hi, and welcome to this little project of mine. I decided to write up a
         few pages' worth of simplication of Discrete Mathematics concepts as a
         way to test out routing and deploying in <b>React</b>. I don't know how
@@ -17,15 +18,16 @@ function App() {
         course's worth of material here, right?
       </p>
       <p>
-        <Link to="/discrete-in-a-nutshell/pageone">1.1: Basic Statements</Link>
+        <Link to="/c1p1">1.1: Statements</Link>
       </p>
       <p>
-        <Link to="/discrete-in-a-nutshell/pagetwo">1.2: Basic Symbols</Link>
+        <Link to="/c1p2">1.2: Implications</Link>
       </p>
       <Routes>
-        <Route path="/discrete-in-a-nutshell" element={<Base />} />
-        <Route path="/discrete-in-a-nutshell/pageone" element={<Page1 />} />
-        <Route path="/discrete-in-a-nutshell/pagetwo" element={<Page2 />} />
+        <Route path="/" element={<Base />} />
+        <Route path="/c1p1" element={<Ch1Page1 />} />
+        <Route path="/c1p2" element={<Ch1Page2 />} />
+        <Route path="/c1p3" element={<Ch1Page3 />} />
       </Routes>
       <Footer />
     </div>

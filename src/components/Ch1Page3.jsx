@@ -1,6 +1,6 @@
 import Latex from 'react-latex';
 
-const Page2 = () => {
+const Ch1Page3 = () => {
     return (
         <div>
             <p><strong>Basic Symbols</strong></p>
@@ -9,5 +9,5 @@ const Page2 = () => {
     );
 };
   
-export default Page2;
+export default Ch1Page3;
   
